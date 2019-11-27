@@ -68,6 +68,7 @@ function start(){
         htmlNumberNode = '<div id="numberNode'+htmlDragableIds.toString()+'" class="allBodyDrag">';
         htmlNumberNode += '<div id="mydivheader">Move ...</div><br><br>';
         htmlNumberNode += '<div><input id="numberNodeEdit'+htmlDragableIds.toString()+'Value" type="number"></div>';
+        htmlNumberNode += '<div style="position:absolute; top:60%; left:-15px; width:15px; height:15px; border : none; border-radius: 15px; background-color : orange;"></div>';
         htmlNumberNode += '<button id="numberNodeEdit'+htmlDragableIds.toString()+'Remove">Remove</button>';
         htmlNumberNode += '<button id="numberNodeEdit'+htmlDragableIds.toString()+'">Edit</button>';
         htmlNumberNode += '</div>';
